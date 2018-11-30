@@ -1,0 +1,6 @@
+---
+
+- name: executando o deploy da aplicação
+  hosts: docker
+  roles:
+   - deploy-bluegreen
